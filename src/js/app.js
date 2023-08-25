@@ -40,7 +40,7 @@ unsubscribeBtn.addEventListener('click', (e) => {
     console.log(xhr.responseText);
   }
   
-  xhr.open('DELETE', 'http://localhost:7070' + body);
+  xhr.open('DELETE', 'http://localhost:7070?' + body);
   
   xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
   
